@@ -1,0 +1,74 @@
+/*
+TASK 1
+*/
+
+/* Start Navbar */
+.navbar {
+	background-color: #08526d;
+}
+.navbar-brand > span{
+	
+	font-size:35px;
+	color:  #FFF;
+}
+.navbar-nav .nav-link{
+	font-size: 20px;
+	margin-left: 20px;
+	color: #FFF !important;
+}
+.navbar-nav .active > .nav-link{
+color: #FFF !important
+}
+
+/* End Navbar */
+
+/* Start about */
+.about .container .row h1{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color:rgb(0, 174, 255); 
+}
+.about .container .row p{
+	font-size: 20px;
+	color:gray;
+	display: block;
+}
+/* End about */
+/* Start price */
+.price .container .row h1{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color:rgb(0, 174, 255);; 
+}
+.price .container .row p{
+	font-size: 20px;
+	color:gray;
+	display: block;
+}
+.price .container .row  p i{
+	background-color: yellow;
+	font-size: 20px;
+}
+/* End price */
+/* Start coin */
+
+  output
+  {border:1px solid;
+  border-color: #c6cbce!important;
+  width: 100%;
+  color :gray!important;
+  padding: 18px!important;
+  font-size: 13px !important ; }
+  
+  .rate{
+	color :black;
+  }
+  select
+  {color:gray!important;
+	border-color: #c6cbce!important;
+	width: 100%;
+	margin-top: 30px;padding: 10px!important;;
+  
+  }
+  /* End coin */
+ 

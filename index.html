@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+	<title>Bootstrap 4 Design Number 1</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container">
+    <a class="navbar-brand" href="#">
+      <span>BitPrice</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-nav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+        </li>
+  
+      </ul>
+    </div>
+    </div>
+    </div>
+  </nav>
+      <!-- End Navbar -->
+    <!-- Start Price -->
+         <div class="price">
+     <div class="container">
+     <div class="row">
+         <h1>Welcome to BitzPrice</h1>
+         </div>
+          <div class="row">
+         <p>Check current Bitcoin rate</p>
+         </div>
+     </div>
+     </div>
+  <!-- End Price -->
+ <!-- Start coin --> 
+<div class="bit text-sm-left">
+    <div class="container">
+      <form name="register">
+        <output name="result" class="badge badge-light text-left">
+             Bitcion rate for <span class="description" id="desc"></span>
+                <span class="code badge badge-info" id="code"></span> 
+                <span class="rate" id="rate"></span>
+         </output>
+         <select  onchange="getBpi(bpi.value)" name="data" id="bpi" class="badge badge-light text-left">
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+            <option value="EUR">EUR</option>
+          </select>
+
+       
+        </form>
+        
+        </div>
+        </div>
+
+   <!-- End Coin --> 
+  
+ 
+     <script type="text/javascript" src="js/jquery-3.x-git.min.js"></script>
+          <script type="text/javascript" src="js/popper.min.js"></script>
+       <script type="text/javascript" src="js/bootstrap.min.js"></script>
+       <script type="text/javascript" src="js/main.js"></script> 
+         
+         
+         
+</body>
+</html>
